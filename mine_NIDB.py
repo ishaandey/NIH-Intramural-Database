@@ -159,7 +159,7 @@ df_raw = df_raw[['project_id', 'fiscal_year', 'report_title',
                  'publications', 'url']]
 
 path = '/Users/ishaandey/Documents/AmanRanaLab/NIDB'
-df_raw.to_csv('{p}/raw_data_{yr}.csv'.format(p=path,yr=year))
+# df_raw.to_csv('{p}/raw_data_{yr}.csv'.format(p=path,yr=year))
 browser.close()
 
 #%%

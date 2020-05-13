@@ -215,7 +215,3 @@ df = df[['project_id', 'fiscal_year', 'report_title', 'principal_investigator',
          'collab_other_NCI', 'collab_other_NIH', 'publications', 'url']]
 
 df.to_csv('{p}/cleaned_data_{yr}.csv'.format(p=path,yr=year))
-    
-
-#%%
-if verbose != 'N': os.system("say kaam hoeguyah baanchode")

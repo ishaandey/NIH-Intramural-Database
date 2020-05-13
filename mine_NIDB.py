@@ -7,6 +7,7 @@ Created on Thu Jan 23 11:43:09 2020
 """
 #%%
 import os
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 

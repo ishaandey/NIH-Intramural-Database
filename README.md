@@ -2,7 +2,7 @@
 Pull annual project reports from any NIH Institute from 1999 - 2019 using Selenium 
 
 ## Usage
-The script will navigate to [the NIH Intramural Database](https://intramural.nih.gov/search/search.taf), shown here
+The script will navigate to the [NIH Intramural Database](https://intramural.nih.gov/), shown here:
 ![search](screenshots/search.png)
 After inputting the required search terms, the results will appear:
 ![results](screenshots/results.png)
@@ -14,7 +14,7 @@ To run the script, execute the following: (must have Python 3.7 installed in env
 ```
 $ python3 mine_nidb.py
 ```
-Follow instruction prompts via command line to select specific institute and year 
+Follow instruction prompts via command line to select specific institute and year.
 
 ### Installation
 Must have Selenium Chrome Driver installed, along with the corresponding version of Chrome. 
